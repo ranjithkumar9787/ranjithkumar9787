@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>News Landscape</title>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-select.min.css">
+		<link rel="stylesheet" type="text/css" href="css/home.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+                <link rel=icon href=static/logo/flavicon.png>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top" style="z-index: 3"> 
+	                <a href="/"><img id ="navLogo" class="navbar-brand" src="/static/logo/logo_small_trans.png"></img></a>
+			<ul class="nav navbar-nav navbar-right">
+				<li> 
+					<a href="/about"> About </a>
+				</li>
+				<li> 
+					<a href="/datasetRequest"> Datasets </a>
+				</li>
+				<li>
+					<a style="padding-right:50px" href="/help"> Help </a>
+				</li>
+			</ul>
+		</nav>
+		<div id="homeContainer">
+			<img id="homeLogo" src="/static/logo/logo_large_trans.png"> </img>
+		</div>
+		<input id="credToolkitButton" type="button" class="btn btn-default btn-lg" value="Check the News" onclick="location.href='/credibilitytoolkit'"></input>
+		<input id="visualizationButton" type="button" class="btn btn-default btn-lg" value="Visualize the News" onclick="location.href='/visualizationtoolkit'"></input>
+	</body>
+</html>

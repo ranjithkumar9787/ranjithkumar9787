@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>NewsVisualizer</title>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap-select.min.js"></script>
+		<script type="text/javascript" src="js/sourceData.js"></script>
+		<script type="text/javascript" src="js/allSources.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-select.min.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css"></script>
+		<link rel=icon href=static/logo/flavicon.png>
+	</head>
+
+<nav class="navbar navbar-inverse navbar-fixed-top"> 
+	<a href="/"><img id ="navLogo" class="navbar-brand" src="/static/logo/logo_small_trans.png"></img></a>
+	<ul class="nav navbar-nav navbar-right">
+		<li> 
+			<a href="/"> Home </a>
+		</li>
+		<li> 
+			<a href="/datasetRequest"> Datasets </a>
+		</li>
+		<li>
+			<a href="/visualizationtoolkit"> Back to News Visualizer </a>
+		</li>
+		<li>
+			<a style="padding-right:50px" href="/help"> Help </a>
+		</li>
+	</ul>
+</nav>
+
+<div class="row" style="display:inline-flex;  margin-top: 80px; width: 1750px">
+	<div style="display: flex; margin-left:200px">
+		<div style="width:400px; float; margin-right:75px;"> 
+			<table class="table table-hover" id="allSources0">
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div style="width:400px; float: right;margin-right:75px"> 
+			<table class="table table-hover" id="allSources1">
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div style="width:400px; float: right;"> 
+			<table class="table table-hover" id="allSources2">
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>
+
